@@ -1,0 +1,119 @@
+<H>
+    <title>
+        whatsapp login page
+    </title>
+    <style>
+        body {
+            background-color: rgba(128, 128, 128, 0.19);
+
+
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .nesteddabba1 {
+            background-color: aquamarine;
+            /* margin: 50px; */
+            border: 2px solid aquamarine;
+            /* box-shadow: 5px 5px blue; */
+            height: 600px;
+            width: 450px;
+            margin-top: 100px;
+            text-align: center;
+            color: white;
+
+            border-radius: 15px;
+
+        }
+
+        .nesteddabba2 {
+            background-color: white;
+            color: black;
+            border: 2px solid whitesmoke;
+            /* box-shadow: 5px 5px blue; */
+            border-radius: 15px;
+            width: 450px;
+            height: 600px;
+            margin-top: 100px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-top: 220px;
+        }
+
+        p {
+            text-align: center;
+
+
+        }
+
+        #phone {
+            color: rgba(128, 128, 128, 0.521);
+            margin: 30px;
+        }
+
+        #great {
+            margin: 30px;
+
+        }
+
+        #next {
+            color: aqua;
+        }
+
+        .seconddiv {
+            margin: 40px;
+
+        }
+
+        .placeholder {
+            /* text-align: 50px; */
+            margin-left: 140px;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="nesteddabba1" id="dabba-1"><img class="logo" src="./IMAGES/WhatsApp_Logo.svg.png" height="100px" alt="">
+                <p>
+                <h1>Whatsapp</h1>
+                </p>
+            </div>
+            <div class="nesteddabba2" id="dabba-2">
+                <div class="firstdiv">
+                    <p id="Great"><b>Great to see you again!</b></p>
+                    <p>Enter your phone number</p>
+                    <p id="phone">Phone number</p>
+                    <div class="placeholder">+91
+                        <input type="number" maxlength="10" ; size="10" ;placeholder="+91_ _ _ _ _ _ _ _ _ _">
+                    </div>
+                    <!-- <p>+91_ _ _ _ _ _ _ _ _ _<br> ________________________</p> -->
+                </div>
+                <div class="seconddiv">
+                    <p><b>or</b></p>
+                    <p>Scan QR code on your phone</p>
+                    <p> <img src="./IMAGES/whatsapp qr code.jpg" height="100px" alt="" onclick="openfile()"></p>
+                    <script>
+                        function openfile(){
+                            window.location.href = 'project.html';
+
+                        }
+                    </script>
+                    <p id="next">Next-></p>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+
+
+</H>
